@@ -2,7 +2,7 @@
 //imported in BurgerBuilder
 import React, { Component } from 'react';
 import classes from './Modal.css';
-import Aux from '../../../hoc/auxillary';
+import Aux from '../../../hoc/Auxillary/Auxillary';
 import Backdrop from '../Backdrop/Backdrop';
 
 class Modal extends Component  {

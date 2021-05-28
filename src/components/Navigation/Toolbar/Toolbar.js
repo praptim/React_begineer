@@ -10,7 +10,9 @@ const toolbar = (props) => (
         <div className={classes.Logo}>
             <Logo/>
         </div>
-        <nav className={classes.DesktopOnly}>
+        {/* only when the screen size is like a desktop then show the navigation in the nav bar.
+        else show it in the side drawer */}
+        <nav className={classes.DesktopOnly}> 
             <NavigationItems/>
         </nav>
     </header>
